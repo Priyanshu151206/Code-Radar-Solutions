@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     char x;
-    scanf("%d",&x);
-    if('a<=x && x<='z){
+    scanf("%c",&x);
+    if(a<='x' && x<='z'){
         if(x=='a'=='e'=='i'=='o'=='u'){
             printf("Vowel");
         }else{
