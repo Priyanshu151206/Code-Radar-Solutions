@@ -8,7 +8,7 @@ int main(){
         }else{
             printf("Consonant");
         }
-    }else if('0'<=x && x<='9'){
+    }else if(0<=x && x<=9){
         printf("Digit");
     }else{
         printf("Special Character");
