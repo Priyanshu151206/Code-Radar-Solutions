@@ -2,7 +2,9 @@
 int main(){
     int x;
     scanf("%d",&x);
-    for(int i=x;i>1;i--){
-        printf("%d",'*'*i);
+    for(int i=0;i<x;i--){
+        for(int j=i;j<i;j++){
+            printf("*");
+        }printf("\n");
     }
 }
