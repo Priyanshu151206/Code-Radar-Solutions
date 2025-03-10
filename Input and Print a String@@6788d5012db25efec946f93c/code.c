@@ -4,6 +4,6 @@
 int main() {
     int N[100];
     scanf("%s", &N);
-    printf("Valid input: %s\n", N);
+    printf("You entered: %s\n", N);
     return 0;
 }
