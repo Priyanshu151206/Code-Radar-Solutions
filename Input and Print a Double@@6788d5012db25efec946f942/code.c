@@ -3,5 +3,5 @@
 int main(){
     double x;
     scanf("%.4lf",&x);
-    printf("You entered:.4%lf",x);
+    printf("You entered:%.4lf",x);
 }
