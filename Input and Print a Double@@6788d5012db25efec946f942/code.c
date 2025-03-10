@@ -2,6 +2,6 @@
 #include<stdio.h>
 int main(){
     double x;
-    scanf("%f",&x);
-    printf("You entered:%f",x);
+    scanf("%lf",&x);
+    printf("You entered:%lf",x);
 }
