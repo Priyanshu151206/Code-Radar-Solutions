@@ -2,6 +2,6 @@
 #include<stdio.h>
 int main(){
     double x;
-    scanf("%0.4lf",&x);
-    printf("You entered:%0.4lf",x);
+    scanf("%.4lf",&x);
+    printf("You entered:%.4lf",x);
 }
