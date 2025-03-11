@@ -16,7 +16,7 @@ int main() {
 
    
     for (int i = 0; i < n; i++) {
-        scanf("%d %s %f", &students[i].rollNumber, students[i].name, &students[i].marks);
+        scanf("%d %s %f", &students[i].rollNumber, &students[i].name, &students[i].marks);
         totalMarks += students[i].marks;
     }
 
