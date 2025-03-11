@@ -3,7 +3,7 @@
 int main(){
     int x;
     scanf("%d",&x);
-    int a=1;
+    int a=0;
     for(int i=1;i<=x;i++){
         a=a+i;
 
