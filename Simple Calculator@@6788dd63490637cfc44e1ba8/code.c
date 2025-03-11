@@ -2,15 +2,15 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    char c;
+    char c[100];
     scanf("%d %d %s",&a,&b,&c);
-    if(c =='+'){
+    if(c[0] =='+'){
         printf("%d",a + b);
-    }else if(c =='-'){
+    }else if(c[0] =='-'){
         printf("%d",a - b);
-    }else if(c =='*'){
+    }else if(c[0] =='*'){
         printf("%d",a * b);
-    }else if(c =='/'){
+    }else if(c[0] =='/'){
         printf("%d",a / b);
     }else{
         printf("error");
