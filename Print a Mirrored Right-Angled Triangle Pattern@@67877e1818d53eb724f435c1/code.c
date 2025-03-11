@@ -8,7 +8,9 @@ int main(){
             for(int k=1;k<=x-j;k++){
                 printf(" ");
             }
-            printf("*");
+            for(int t=0;t<j;t++){
+                printf("*");
+            }
         }printf("\n");
     }
 }
