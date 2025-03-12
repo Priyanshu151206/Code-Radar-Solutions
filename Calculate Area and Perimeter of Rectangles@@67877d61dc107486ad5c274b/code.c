@@ -15,4 +15,5 @@ int main(){
         printf("Rectangle %d: Area = &f, Perimeter = &f",j,((rectangles[j].length) * (rectangles[j].breadth)),2((rectangles[j].length)+(rectangles[j].breadth)));
         printf("\n");
     }
+    return 0;
 }
