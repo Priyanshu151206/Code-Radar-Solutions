@@ -3,7 +3,7 @@
 struct rectangle{
     int length;
     int breadth;
-}
+};
 int main(){
     int x;
     scanf("%d",&x);
