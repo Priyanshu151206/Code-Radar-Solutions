@@ -4,6 +4,6 @@
 int main(){
     char str[100];
     scanf("%s",&str);
-    char rev[100]=strsep(str);
+    char rev[100]=strev(str);
     printf("%s",rev);
 }
