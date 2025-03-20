@@ -1,7 +1,19 @@
 #include <stdio.h>
-int main(){
-    int x;
-    scanf("%d",&x);
-    printf("%d",x&1);
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
+int main() {
+   int num;
+   scanf("%d",&num);
+   int lsb= num & -num;
+   int position=0;
+   while(lsb>1){
+    lsb=lsb>>1;
+    position++;
+    }
+
+   printf("%d",position);
     return 0;
 }
