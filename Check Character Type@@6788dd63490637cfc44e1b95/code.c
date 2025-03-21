@@ -1,15 +1,22 @@
 #include <stdio.h>
-int main(){
-    int x[10];
-    scanf("s",&x);
-    if(x[0]>='a' && x[0]<='z'){
-        if(x[0]=='a'|| x[0]=='e' || x[0]=='i' || x[0]=='o'|| x[0]=='u'){
+#include <ctype.h>
+
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
+int main() {
+    char a;
+    scanf("%c",&a);
+    a=tolower(a);
+    if(a>='a'&&a<='z'){
+        if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'){
             printf("Vowel");
         }else{
             printf("Consonant");
         }
-
-    }else if(x[0]>=0 && x[0]<=9){
+    }else if(isdigit(a)){
         printf("Digit");
     }else{
         printf("Special Character");
