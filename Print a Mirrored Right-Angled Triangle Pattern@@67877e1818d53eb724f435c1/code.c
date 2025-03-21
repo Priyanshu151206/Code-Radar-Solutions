@@ -1,19 +1,15 @@
 // Your code here...
 #include<stdio.h>
-int main(){
-    int x;
-    scanf("%d",&x);
-    for(int i=1;i<=x;i++){
-        for(int j=0;j<i;j++){
-
-            for(int k=1;k<=x-i;k++){
-                if(k>=1){
-                    printf(" ");
-                }
-            }
-            
+int main(){ int a;
+    scanf("%d", &a);
+    for (int i = 1; i <= a; i++) {
+        for (int j = 0; j < a - i ; j++) {
+            printf(" ");
+        }
+        for (int j = 0; j < i; j++) {
             printf("*");
-            
-        }printf("\n");
-    }
+        }
+        printf("\n");
+        }
+    return 0;
 }
